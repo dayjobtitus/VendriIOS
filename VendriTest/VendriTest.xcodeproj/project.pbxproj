@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1525B76E1A30701A006055BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525B76D1A30701A006055BD /* main.m */; };
+		1525B7711A30701A006055BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525B7701A30701A006055BD /* AppDelegate.m */; };
+		1525B7741A30701A006055BD /* VendriTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1525B7721A30701A006055BD /* VendriTest.xcdatamodeld */; };
+		1525B7771A30701A006055BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525B7761A30701A006055BD /* ViewController.m */; };
+		1525B77A1A30701A006055BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1525B7781A30701A006055BD /* Main.storyboard */; };
+		1525B77C1A30701A006055BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1525B77B1A30701A006055BD /* Images.xcassets */; };
+		1525B77F1A30701A006055BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1525B77D1A30701A006055BD /* LaunchScreen.xib */; };
+		1525B78B1A30701A006055BD /* VendriTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525B78A1A30701A006055BD /* VendriTestTests.m */; };
+		1525B7961A307112006055BD /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1525B7951A307112006055BD /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1525B8431A308A9B006055BD /* Vendri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1525B8421A308A9B006055BD /* Vendri.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1525B7851A30701A006055BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1525B7601A30701A006055BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1525B7671A30701A006055BD;
+			remoteInfo = VendriTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1525B79B1A30736D006055BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1525B7681A30701A006055BD /* VendriTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendriTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1525B76C1A30701A006055BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1525B76D1A30701A006055BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1525B76F1A30701A006055BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1525B7701A30701A006055BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1525B7731A30701A006055BD /* VendriTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VendriTest.xcdatamodel; sourceTree = "<group>"; };
+		1525B7751A30701A006055BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1525B7761A30701A006055BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1525B7791A30701A006055BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1525B77B1A30701A006055BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1525B77E1A30701A006055BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1525B7841A30701A006055BD /* VendriTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendriTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1525B7891A30701A006055BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1525B78A1A30701A006055BD /* VendriTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VendriTestTests.m; sourceTree = "<group>"; };
+		1525B7941A307112006055BD /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		1525B7951A307112006055BD /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		1525B8421A308A9B006055BD /* Vendri.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vendri.framework; path = "../../../Library/Developer/Xcode/DerivedData/VendriWorkspace-ehokeymjkhsgcudxtvhqpwjqgblt/Build/Products/Debug-iphoneos/Vendri.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1525B7651A30701A006055BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1525B8431A308A9B006055BD /* Vendri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B7811A30701A006055BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1525B75F1A30701A006055BD = {
+			isa = PBXGroup;
+			children = (
+				1525B8421A308A9B006055BD /* Vendri.framework */,
+				1525B76A1A30701A006055BD /* VendriTest */,
+				1525B7871A30701A006055BD /* VendriTestTests */,
+				1525B7691A30701A006055BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1525B7691A30701A006055BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1525B7681A30701A006055BD /* VendriTest.app */,
+				1525B7841A30701A006055BD /* VendriTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1525B76A1A30701A006055BD /* VendriTest */ = {
+			isa = PBXGroup;
+			children = (
+				1525B76F1A30701A006055BD /* AppDelegate.h */,
+				1525B7701A30701A006055BD /* AppDelegate.m */,
+				1525B7751A30701A006055BD /* ViewController.h */,
+				1525B7761A30701A006055BD /* ViewController.m */,
+				1525B7941A307112006055BD /* iToast.h */,
+				1525B7951A307112006055BD /* iToast.m */,
+				1525B7781A30701A006055BD /* Main.storyboard */,
+				1525B77B1A30701A006055BD /* Images.xcassets */,
+				1525B77D1A30701A006055BD /* LaunchScreen.xib */,
+				1525B7721A30701A006055BD /* VendriTest.xcdatamodeld */,
+				1525B76B1A30701A006055BD /* Supporting Files */,
+			);
+			path = VendriTest;
+			sourceTree = "<group>";
+		};
+		1525B76B1A30701A006055BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1525B76C1A30701A006055BD /* Info.plist */,
+				1525B76D1A30701A006055BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1525B7871A30701A006055BD /* VendriTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1525B78A1A30701A006055BD /* VendriTestTests.m */,
+				1525B7881A30701A006055BD /* Supporting Files */,
+			);
+			path = VendriTestTests;
+			sourceTree = "<group>";
+		};
+		1525B7881A30701A006055BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1525B7891A30701A006055BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1525B7671A30701A006055BD /* VendriTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1525B78E1A30701A006055BD /* Build configuration list for PBXNativeTarget "VendriTest" */;
+			buildPhases = (
+				1525B7641A30701A006055BD /* Sources */,
+				1525B7651A30701A006055BD /* Frameworks */,
+				1525B7661A30701A006055BD /* Resources */,
+				1525B79B1A30736D006055BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendriTest;
+			productName = VendriTest;
+			productReference = 1525B7681A30701A006055BD /* VendriTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1525B7831A30701A006055BD /* VendriTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1525B7911A30701A006055BD /* Build configuration list for PBXNativeTarget "VendriTestTests" */;
+			buildPhases = (
+				1525B7801A30701A006055BD /* Sources */,
+				1525B7811A30701A006055BD /* Frameworks */,
+				1525B7821A30701A006055BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1525B7861A30701A006055BD /* PBXTargetDependency */,
+			);
+			name = VendriTestTests;
+			productName = VendriTestTests;
+			productReference = 1525B7841A30701A006055BD /* VendriTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1525B7601A30701A006055BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Harsha Gillellamudi";
+				TargetAttributes = {
+					1525B7671A30701A006055BD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1525B7831A30701A006055BD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1525B7671A30701A006055BD;
+					};
+				};
+			};
+			buildConfigurationList = 1525B7631A30701A006055BD /* Build configuration list for PBXProject "VendriTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1525B75F1A30701A006055BD;
+			productRefGroup = 1525B7691A30701A006055BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1525B7671A30701A006055BD /* VendriTest */,
+				1525B7831A30701A006055BD /* VendriTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1525B7661A30701A006055BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1525B77A1A30701A006055BD /* Main.storyboard in Resources */,
+				1525B77F1A30701A006055BD /* LaunchScreen.xib in Resources */,
+				1525B77C1A30701A006055BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B7821A30701A006055BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1525B7641A30701A006055BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1525B7711A30701A006055BD /* AppDelegate.m in Sources */,
+				1525B76E1A30701A006055BD /* main.m in Sources */,
+				1525B7771A30701A006055BD /* ViewController.m in Sources */,
+				1525B7961A307112006055BD /* iToast.m in Sources */,
+				1525B7741A30701A006055BD /* VendriTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1525B7801A30701A006055BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1525B78B1A30701A006055BD /* VendriTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1525B7861A30701A006055BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1525B7671A30701A006055BD /* VendriTest */;
+			targetProxy = 1525B7851A30701A006055BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1525B7781A30701A006055BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1525B7791A30701A006055BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1525B77D1A30701A006055BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1525B77E1A30701A006055BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1525B78C1A30701A006055BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1525B78D1A30701A006055BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1525B78F1A30701A006055BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/VendriWorkspace-gdpvrxukaenbmoaalvefputhrxan/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/VendriWorkspace-ehokeymjkhsgcudxtvhqpwjqgblt/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = VendriTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1525B7901A30701A006055BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/VendriWorkspace-gdpvrxukaenbmoaalvefputhrxan/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/VendriWorkspace-ehokeymjkhsgcudxtvhqpwjqgblt/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = VendriTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1525B7921A30701A006055BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VendriTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VendriTest.app/VendriTest";
+			};
+			name = Debug;
+		};
+		1525B7931A30701A006055BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VendriTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VendriTest.app/VendriTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1525B7631A30701A006055BD /* Build configuration list for PBXProject "VendriTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1525B78C1A30701A006055BD /* Debug */,
+				1525B78D1A30701A006055BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1525B78E1A30701A006055BD /* Build configuration list for PBXNativeTarget "VendriTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1525B78F1A30701A006055BD /* Debug */,
+				1525B7901A30701A006055BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1525B7911A30701A006055BD /* Build configuration list for PBXNativeTarget "VendriTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1525B7921A30701A006055BD /* Debug */,
+				1525B7931A30701A006055BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1525B7721A30701A006055BD /* VendriTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1525B7731A30701A006055BD /* VendriTest.xcdatamodel */,
+			);
+			currentVersion = 1525B7731A30701A006055BD /* VendriTest.xcdatamodel */;
+			path = VendriTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1525B7601A30701A006055BD /* Project object */;
+}
